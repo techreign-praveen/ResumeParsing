@@ -8,4 +8,5 @@ text = extract_text_from_docx("Ashish Tyagi_Resume 2018_.docx")
  #           text += ' ' + page
 print(text)
 entities = extract_name(text)
+
 print(entities)
